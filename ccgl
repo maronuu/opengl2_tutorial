@@ -1,0 +1,2 @@
+#!/bin/sh
+exec cc -I/usr/include "$@" -L/usr/lib -lglut -lGLU -lGL -lXmu -lXi -lXext -lX11 -lm -lpthread
